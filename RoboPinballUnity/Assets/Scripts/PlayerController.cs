@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	private float moveHorizontal;
 	private float moveVertical;
 	private Vector2 axis;
 	private Rigidbody rb;
 	private Vector3 movement;
+
+	private bool IsBall;
 
 	public float speed;
 
